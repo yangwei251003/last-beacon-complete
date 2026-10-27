@@ -1,0 +1,16 @@
+{
+  "name": "last-beacon-complete",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Offline island microgrid tower defense based on Last Beacon by stackloomdev",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
